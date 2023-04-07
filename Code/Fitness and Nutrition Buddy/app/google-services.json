@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605229554383",
+    "project_id": "fitness-and-nutrition-bu-fd350",
+    "storage_bucket": "fitness-and-nutrition-bu-fd350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605229554383:android:26eddf0e44242710d135ba",
+        "android_client_info": {
+          "package_name": "com.example.fitnessandnutritionbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605229554383-ium9arf5jct499ttgs99870mftk447ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWlZgrTq8S6lb_13tYU5rxVusQQppoYGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605229554383-ium9arf5jct499ttgs99870mftk447ss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

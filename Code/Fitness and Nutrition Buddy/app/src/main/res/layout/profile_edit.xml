@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Information"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full Name:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+
+                <EditText
+                    android:id="@+id/fullname_input"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="empty"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+
+                <EditText
+                    android:id="@+id/gender_input"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="empty"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:id="@+id/age_input"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="empty"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Height (cm):"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+
+                <EditText
+                    android:id="@+id/height_input"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="empty"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight (lb):"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+                <EditText
+                    android:id="@+id/weight_input"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="empty"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Preferences"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Calories:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:id="@+id/popup_button2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="&amp;lt" />
+                <EditText
+                    android:id="@+id/pref_calorie_amt"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="calories"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sugar:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/popup_button"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="lt" />
+
+                <EditText
+                    android:id="@+id/pref_sugar_amt"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="sugar"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Protein:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/popup_button3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="&amp;lt" />
+
+                <EditText
+                    android:id="@+id/pref_protein_amt"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="protein"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_marginRight="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fat:"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/popup_button4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="LT" />
+
+                <EditText
+                    android:id="@+id/pref_fat_amt"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="total fat"
+                    android:textSize="20dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="#D3D3D3"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/saveProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Changes"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

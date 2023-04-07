@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Fitness and Nutrition Buddy</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Search</string>
+    <string name="title_notifications">Profile</string>
+    <string name="title_meals">Meals</string>
+    <string name="meal_name">Name</string>
+    <string name="meal_brand">Brand</string>
+    <string name="meal_calories">Calories</string>
+    <string name="meal_carbs">Carbohydrates</string>
+    <string name="meal_proteins">Proteins</string>
+    <string name="meal_fats">Fats</string>
+    <string name="common">Common</string>
+
+
+    <string-array name="choice_array">
+        <item>Food</item>
+        <item>Exercise</item>
+    </string-array>
+
+    <string-array name="meal_type_array">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+
+    <string-array name="exercise_type_array">
+        <item>Cardio</item>
+        <item>WeightLifting</item>
+        <item>Yoga</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plans">Plans</string>
+
+
+</resources>

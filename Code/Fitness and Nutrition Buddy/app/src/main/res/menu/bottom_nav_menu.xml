@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@id/navigation_meals"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Map" />
+
+    <item
+        android:id="@+id/navigation_planning"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="@string/plans" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/title_notifications" />
+</menu>

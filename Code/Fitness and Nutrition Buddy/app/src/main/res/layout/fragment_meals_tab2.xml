@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MealsFrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.MealsTab2Fragment">
+
+    <ScrollView
+        android:id="@+id/mealsScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/breakfastTitleButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:clickable="false"
+                android:text="Breakfast"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+            <ListView
+                android:id="@+id/breakfastListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/addBreakfastButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:clickable="true"
+                android:elevation="10dp"
+                android:text="Add Food"
+                android:textAlignment="viewStart"
+                android:textColor="#0000EE" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/lunchTitleButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:clickable="false"
+                android:text="Lunch"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+            <ListView
+                android:id="@+id/lunchListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/addLunchButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00834C4C"
+                android:elevation="10dp"
+                android:text="Add Food"
+                android:textAlignment="viewStart"
+                android:textColor="#0000EE" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/dinnerTitleButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:clickable="false"
+                android:text="Dinner"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+            <ListView
+                android:id="@+id/dinnerListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/addDinnerButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00834C4C"
+                android:elevation="10dp"
+                android:text="Add Food"
+                android:textAlignment="viewStart"
+                android:textColor="#0000EE" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/snackTitleButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:clickable="false"
+                android:text="Snack"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/black" />
+
+            <ListView
+                android:id="@+id/snackListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/addSnackButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00834C4C"
+                android:elevation="10dp"
+                android:text="Add Food"
+                android:textAlignment="viewStart"
+                android:textColor="#0000EE" />
+
+            <ListView
+                android:id="@+id/mealLogListView2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+            </ListView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

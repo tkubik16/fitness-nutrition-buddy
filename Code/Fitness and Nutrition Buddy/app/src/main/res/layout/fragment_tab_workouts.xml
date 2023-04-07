@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <Button
+            android:id="@+id/addCardioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:text="Add Cardio"
+            android:textAlignment="viewStart"
+            android:textColor="#0000EE" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <Button
+            android:id="@+id/addweightLiftingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:text="Add WeightLifting"
+            android:textAlignment="viewStart"
+            android:textColor="#0000EE" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <Button
+            android:id="@+id/addYogaButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:clickable="true"
+            android:elevation="10dp"
+            android:text="Add Yoga"
+            android:textAlignment="viewStart"
+            android:textColor="#0000EE" />
+
+    </LinearLayout>
+
+</FrameLayout>

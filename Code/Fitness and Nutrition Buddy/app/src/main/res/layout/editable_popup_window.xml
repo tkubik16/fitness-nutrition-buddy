@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <ImageButton
+        android:id="@+id/epwExitButton"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/exit_button"
+        android:scaleType="centerInside"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageView
+        android:id="@+id/epwFoodImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+
+    <EditText
+        android:id="@+id/epwFoodEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epwFoodImageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:ellipsize="end"
+        android:hint="Food Name"
+        android:maxLines="2"
+        android:text="FoodName really long should take up to 2 linestetstststsasdasd"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/epwBrandEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/epwFoodEditText"
+        android:layout_alignTop="@+id/epwFoodEditText"
+        android:layout_alignEnd="@+id/epwFoodEditText"
+        android:layout_marginTop="51dp"
+        android:ellipsize="end"
+        android:hint="Brand Name"
+        android:text="BrandName"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/epwCaloriesEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epwBrandEditText"
+        android:layout_alignStart="@+id/epwBrandEditText"
+        android:ellipsize="end"
+        android:hint="Calories"
+        android:numeric="integer"
+        android:text="Calories"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/epwServingsEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epwCaloriesEditText"
+        android:layout_alignStart="@+id/epwCaloriesEditText"
+        android:ellipsize="end"
+        android:hint="Servings"
+        android:numeric="integer"
+        android:text="1 Serving"
+        android:textSize="18dp" />
+
+    <Spinner
+        android:id="@+id/epwMealTypeSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/epwServingsEditText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:contentDescription="Meal Type" />
+
+    <Button
+        android:id="@+id/epwRemoveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="19dp"
+        android:outlineProvider="background"
+        android:text="Add food" />
+
+    <Button
+        android:id="@+id/epwUpdateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/epwRemoveButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Save Changes" />
+
+</RelativeLayout>
