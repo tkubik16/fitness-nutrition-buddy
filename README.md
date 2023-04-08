@@ -1,6 +1,6 @@
 <h1>Fitness and Nutrition Buddy Android App</h1>
 
-The database is no longer live and the NutritionX API key is no longer active so the project cannot be utilized but here are screenshots from the app when it was functioning. This was a group project of four people from a course I took at UIC called Software Engineering 2.
+The database is no longer live and the NutritionIX API key is no longer active so the project cannot be utilized but here are screenshots from the app when it was functioning. This was a group project of four people from a course I took at UIC called Software Engineering 2.
 
 <div>
 <img src="https://drive.google.com/uc?export=view&id=1tHwd-UxieljuGLBOVDyGyfuzEwGm3MKq" alt="Register Page" title="Register Page" height="600">
@@ -78,26 +78,26 @@ On the map page of the application as seen in the above left image the user loca
 <br></br>
 
 <div>
-<img src="https://drive.google.com/uc?export=view&id=" alt="" title="" height="600">
-<img src="https://drive.google.com/uc?export=view&id=" alt="" title="" height="600">
+<img src="https://drive.google.com/uc?export=view&id=18pHR8-kn4wAIyqRJN9Fori31tusnaVAN" alt="Meal plans" title="Meal plans" height="600">
+<img src="https://drive.google.com/uc?export=view&id=1OxOQziP2DYqqRRIFndWsaIQ193lvunFE" alt="Meal plan pop up" title="Meal plan pop up" height="600">
 </div>
-
+Above we can see the meal plans in the plans section of the application where a user can select a meal plan. The effect this has is the nutrition goals on the profile page are changed to have different values for the different macronutrients. The nutrition goal number and the nutrition limit numbers will be adjusted based on the meal plan chosen.
 <br></br>
 <br></br>
 
 <div>
-<img src="https://drive.google.com/uc?export=view&id=" alt="" title="" height="600">
-<img src="https://drive.google.com/uc?export=view&id=" alt="" title="" height="600">
+<img src="https://drive.google.com/uc?export=view&id=1_4cA4CcaupYMKEFVZ3vG14c79HW7P89R" alt="Workout Plans" title="Workout plans" height="600">
+<img src="https://drive.google.com/uc?export=view&id=16CsVko5N7AWHq8jztG5cW2mxSNS7hSNT" alt="Workout plans pop up" title="Workout plans pop up" height="600">
 </div>
-
+Just like for meal plans the application also has workout plans and these adjust the workout goals shown in the bars on the workout section of the profile page.
 <br></br>
 <br></br>
 
 <div>
-<img src="https://drive.google.com/uc?export=view&id=" alt="" title="" height="600">
-<img src="https://drive.google.com/uc?export=view&id=" alt="" title="" height="600">
+<img src="https://drive.google.com/uc?export=view&id=1ZHw8rIwtG3tfViV2tn7k_3YJkrCwWbVA" alt="Text to workout" title="Text to workout search" height="600">
+<img src="https://drive.google.com/uc?export=view&id=1yNqw-zVdHxuSggCstOBvKc9NkO9_kU_F" alt="Text to workout result" title="Text to workout result" height="600">
 </div>
-
+Above we can see the ability to search for a workout the user has done to add it to their workout log. This uses the natural language search function from NutritionIX. 
 <br></br>
 <br></br>
 
