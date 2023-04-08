@@ -102,7 +102,12 @@ Above we can see the ability to search for a workout the user has done to add it
 <br></br>
 
 
-
+<div>
+<img src="https://drive.google.com/uc?export=view&id=1UmDefpfKPqH8XObFTUOrfjEPEKopfOM6" alt="Log in page" title="Log in page" height="600">
+<img src="https://drive.google.com/uc?export=view&id=1cn_4DMsAdRtSQSwxxno47qbisRh7onlH" alt="profile img 2" title="profile img 2" height="600">
+<img src="https://drive.google.com/uc?export=view&id=1aVY8zq4NY-qVI8Rt_h3Ma4DU4azeZ4fc" alt="Restaurants nearby map" title="Restaurants nearby map" height="600">
+<img src="https://drive.google.com/uc?export=view&id=1aRtt8K7ewzyyafwJLNxWCEg3tbWJQPKr" alt="Home apge showing meals" title="Home apge showing meals" height="600">
+</div>
 
 
 
